@@ -1,0 +1,113 @@
+#intro {
+  background-image: url("image/1.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+#mainNav {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: black;
+  }
+  #mainNav .navbar-toggler {
+    padding: 0.75rem;
+    font-size: 0.75rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  #mainNav .navbar-brand {
+    color: #75fbf5;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link ,
+  #mainNav .dropdown-item{
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 0.95rem;
+    color: #fff;
+    margin-left: 30px;
+
+  }
+  #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .dropdown-menu .dropdown-item:hover, #mainNav .dropdown-item.active {
+    color: #75fbf5;
+  }
+  #mainNav .dropdown-menu{
+    background-color: black;
+    --bs-dropdown-link-active-bg: #fff;
+
+  }
+  #mainNav .dropdown-item.active {
+    background-color: #fff;
+  }
+  
+  @media (min-width: 992px) {
+    #mainNav {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      border: none;
+      background-color: transparent;
+      transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+    }
+    #mainNav.navbar-shrink {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      background-color: black;
+    }
+  }
+.masthead-subheading {
+  font-size: 1.8rem;
+  line-height: 1.5rem;
+  margin-bottom: 40px;
+  margin-top: 200px;
+  font-family: monospace;
+}
+.masthead-heading {
+  font-size: 3.25rem;
+  line-height: 3.25rem;
+  margin-bottom: 4rem;
+  font-family: 'monoton';
+}
+.btn.btn-primary {
+  --bs-btn-color: black;
+  --bs-btn-hover-color: black;
+  background-color:#75fbf5;
+  border-color: #75fbf5;
+  --bs-btn-hover-bg:#75fbf5;
+  --bs-btn-hover-border-color: black;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-bg: black;
+  --bs-btn-active-border-color: black;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-bg: black;
+  --bs-btn-disabled-border-color: black;
+}
+.back{
+  background-image: url(image/back.jpg);
+}
+footer{
+  background-color: black;
+}
+p{
+  text-align: left;
+  color: #fff;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.caption{
+  font-size: 12px;
+  color: #fff;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+.caption2{
+  font-size: 20px;
+  color: #fff;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.figure-img {
+  margin-bottom: 0px!important;
+}
+.figure:hover .figure-img{
+  opacity: 0.5;
+}
